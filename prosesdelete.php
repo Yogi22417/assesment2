@@ -5,5 +5,5 @@ include "koneksi.php";
     $stmt->bind_param("i", $_GET['semester']);
     $stmt->execute();
     $stmt->close();
-    header("location:index.php?#IP")  
+    header("location:index.php?#IP");  
 ?>
